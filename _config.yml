@@ -90,6 +90,7 @@ exclude:
   - .github
   - .jekyll-assets-cache
   - .sass-cache
+  - AGENTS.md
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
@@ -97,16 +98,24 @@ exclude:
   - Capfile
   - config
   - Dockerfile
+  - docker-compose.yaml
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
   - local
   - log
+  - markdown_generator
   - node_modules
   - package.json*
   - Rakefile
   - README
+  - scripts
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
+  - talkmap_out.ipynb
   - tmp
   - vendor
 keep_files:
